@@ -1,3 +1,6 @@
+#https://github.com/tomquirk/linkedin-api/blob/master/DOCS.md
+#https://github.com/tomquirk/linkedin-api/blob/master/linkedin_api/linkedin.py
+#https://github.com/tomquirk/linkedin-api/
 from linkedin_api import Linkedin
 api = Linkedin('login email','Password123$$')
 
