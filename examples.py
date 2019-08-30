@@ -9,6 +9,18 @@ search = api.search_people(
     limit=10
 )
 
+#0 is first experience (current company) from a profile's search result
+from random import randint
+from time import sleep
+        
+for i in ids:
+    profile_info = api.get_profile(i)
+    print('getting',i)
+    profile_data.append(profile_info)
+    sleep(randint(2,6))
+result_1_company_name = profile_info[0]['experience'][0]["companyName"]
+
+
 #fuzzy match company name
 
 from fuzzywuzzy import fuzz
@@ -20,3 +32,5 @@ for i in array2:
         
 #get a profile       
 profile_info = api.get_profile_contact_info('profile-public-name-64962376')
+
+test = api.get_company('linkedin')
