@@ -1,0 +1,17 @@
+x = api.get_company("2552221")
+
+print(x["name"])
+print(x["phone"]["number"])
+print(x["confirmedLocations"][0]["geographicArea"])
+print(x["confirmedLocations"][0]["city"])
+print(x["confirmedLocations"][0]["line1"])
+print(x["companyPageUrl"])
+print(x["staffCount"])
+
+#LendSpark 
+#760-660-4355
+#CA
+#Carlsbad
+#2554 Gateway Road, Carlsbad
+#https://lendspark.com
+#12
