@@ -7,6 +7,7 @@ print(x["confirmedLocations"][0]["city"])
 print(x["confirmedLocations"][0]["line1"])
 print(x["companyPageUrl"])
 print(x["staffCount"])
+print(x["followingInfo"]["followerCount"])
 
 #LendSpark 
 #760-660-4355
@@ -15,3 +16,4 @@ print(x["staffCount"])
 #2554 Gateway Road, Carlsbad
 #https://lendspark.com
 #12
+#186
