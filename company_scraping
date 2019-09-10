@@ -9,6 +9,9 @@ print(x["companyPageUrl"])
 print(x["staffCount"])
 print(x["followingInfo"]["followerCount"])
 
+import pandas as pd
+xd = pd.DataFrame([x])
+
 #LendSpark 
 #760-660-4355
 #CA
